@@ -1,0 +1,6 @@
+module Pods_Unity3DTestbed {
+  umbrella header "Pods-Unity3DTestbed-umbrella.h"
+
+  export *
+  module * { export * }
+}

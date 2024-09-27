@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		93D529076BA2F81743BF6033A35532F2 /* UnityAds */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F567FE27ED3601C8E19F6A287560630C /* Build configuration list for PBXAggregateTarget "UnityAds" */;
+			buildPhases = (
+				878A8D7F3673F528B6D8624EC89AF8CB /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = UnityAds;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		14B0C1979AC4D414174A98AB9EA08F19 /* Pods-Unity3DTestbed-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE76AB3D27DCAD636BEC7A461A5C2BFF /* Pods-Unity3DTestbed-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		655A883541BB06BD92EF3190A547D24E /* Pods-Unity3DTestbed-Unity3DTestbedUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA33413E95657E1322C31ED6BF57A82 /* Pods-Unity3DTestbed-Unity3DTestbedUITests-dummy.m */; };
+		682CECE3D3789FE43888ED6A4D4570DF /* Pods-Unity3DTestbed-Unity3DTestbedUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD9C06EC9A8741FC3D806309A7692E0A /* Pods-Unity3DTestbed-Unity3DTestbedUITests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D3454E8ECA91367A03879D295F2FA5E7 /* Pods-Unity3DTestbed-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C7BBC6CF80615E4C293C4EA1A0E0B8 /* Pods-Unity3DTestbed-dummy.m */; };
+		FF1C358A55CA92543735D95EB899B7BD /* Pods-Unity3DTestbedTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC88F638442C700E119021E348D9D54 /* Pods-Unity3DTestbedTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E84B782FF15FBE51AB3B2DBE3F752D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93D529076BA2F81743BF6033A35532F2;
+			remoteInfo = UnityAds;
+		};
+		613B3694A65E22AB27F644E0A805F201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F293397E5E541E203A737EB313E57261;
+			remoteInfo = "Pods-Unity3DTestbed";
+		};
+		832C5530675A5BC93CFC00A9B0260B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93D529076BA2F81743BF6033A35532F2;
+			remoteInfo = UnityAds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009C9673F7C377941030791517681FA0 /* UnityAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnityAds.debug.xcconfig; sourceTree = "<group>"; };
+		0A6C68591EF5C5195442F6D0EDBF7AFC /* Pods-Unity3DTestbed.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Unity3DTestbed.modulemap"; sourceTree = "<group>"; };
+		0BF4F032517B9AC6BAD095488B606E44 /* Pods-Unity3DTestbed-Unity3DTestbedUITests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Unity3DTestbed-Unity3DTestbedUITests"; path = "libPods-Unity3DTestbed-Unity3DTestbedUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADC13153D0861274F3958FDCFA48EFE /* UnityAds.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = UnityAds.xcframework; sourceTree = "<group>"; };
+		30105FF4EB4B0D17F1B08DCF96925C4C /* Pods-Unity3DTestbedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Unity3DTestbedTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FB683621677AB25E48990A590E2D65F /* Pods-Unity3DTestbed-Unity3DTestbedUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Unity3DTestbed-Unity3DTestbedUITests.modulemap"; sourceTree = "<group>"; };
+		510A8ECB136A4C7A903B03A2496E05C6 /* Pods-Unity3DTestbedTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Unity3DTestbedTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5BA33413E95657E1322C31ED6BF57A82 /* Pods-Unity3DTestbed-Unity3DTestbedUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Unity3DTestbed-Unity3DTestbedUITests-dummy.m"; sourceTree = "<group>"; };
+		63EF96AA37BCAB754ABA3693D383004F /* Pods-Unity3DTestbed-Unity3DTestbedUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Unity3DTestbed-Unity3DTestbedUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		640687D1E11E711FD0080846D1A89C75 /* Pods-Unity3DTestbed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Unity3DTestbed.release.xcconfig"; sourceTree = "<group>"; };
+		64B602918CCD2F1B39F39E9B123243D1 /* Pods-Unity3DTestbed-Unity3DTestbedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Unity3DTestbed-Unity3DTestbedUITests.release.xcconfig"; sourceTree = "<group>"; };
+		66BE145D5949249DAE5EF6C83FAABBA2 /* UnityAds-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "UnityAds-xcframeworks.sh"; sourceTree = "<group>"; };
+		71C382163CED1F5D0E9DE7E7BA5BBBAB /* UnityAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnityAds.release.xcconfig; sourceTree = "<group>"; };
+		83C4E30E99B80C27AC6834175AE046F5 /* Pods-Unity3DTestbed */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Unity3DTestbed"; path = "libPods-Unity3DTestbed.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC88F638442C700E119021E348D9D54 /* Pods-Unity3DTestbedTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Unity3DTestbedTests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD9C06EC9A8741FC3D806309A7692E0A /* Pods-Unity3DTestbed-Unity3DTestbedUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Unity3DTestbed-Unity3DTestbedUITests-umbrella.h"; sourceTree = "<group>"; };
+		AE76AB3D27DCAD636BEC7A461A5C2BFF /* Pods-Unity3DTestbed-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Unity3DTestbed-umbrella.h"; sourceTree = "<group>"; };
+		B0C45B73256C7774C1E518157502E1CE /* Pods-Unity3DTestbedTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Unity3DTestbedTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B933CD30C903CBE6BF56D9FFFD9366C3 /* Pods-Unity3DTestbedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Unity3DTestbedTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE79C9770F7625877CBB7688A8AB82EC /* Pods-Unity3DTestbed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Unity3DTestbed.debug.xcconfig"; sourceTree = "<group>"; };
+		C98554E39928104D7995A29CE22E32EE /* Pods-Unity3DTestbed-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Unity3DTestbed-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D17795BE825697586073AC4D064E1352 /* Pods-Unity3DTestbed-Unity3DTestbedUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Unity3DTestbed-Unity3DTestbedUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6C4DB343A34337AC461567EF4F908EA /* Pods-Unity3DTestbedTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Unity3DTestbedTests"; path = "libPods-Unity3DTestbedTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C7BBC6CF80615E4C293C4EA1A0E0B8 /* Pods-Unity3DTestbed-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Unity3DTestbed-dummy.m"; sourceTree = "<group>"; };
+		E6A0F78766CEBAD4A45E5837F213F15F /* Pods-Unity3DTestbed-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Unity3DTestbed-acknowledgements.plist"; sourceTree = "<group>"; };
+		F4853BF192D3523DE98540071EECFB16 /* Pods-Unity3DTestbed-Unity3DTestbedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Unity3DTestbed-Unity3DTestbedUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25B9E589EAA54EC266FEC035A46A43BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECD26FFD00F0B8F3B0023FC64A1FA1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97245C484F0BCC2EC6C50073B7B9DDAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37274002413A48CE3610F0EF3CE72404 /* Pods-Unity3DTestbed */ = {
+			isa = PBXGroup;
+			children = (
+				0A6C68591EF5C5195442F6D0EDBF7AFC /* Pods-Unity3DTestbed.modulemap */,
+				C98554E39928104D7995A29CE22E32EE /* Pods-Unity3DTestbed-acknowledgements.markdown */,
+				E6A0F78766CEBAD4A45E5837F213F15F /* Pods-Unity3DTestbed-acknowledgements.plist */,
+				D8C7BBC6CF80615E4C293C4EA1A0E0B8 /* Pods-Unity3DTestbed-dummy.m */,
+				AE76AB3D27DCAD636BEC7A461A5C2BFF /* Pods-Unity3DTestbed-umbrella.h */,
+				BE79C9770F7625877CBB7688A8AB82EC /* Pods-Unity3DTestbed.debug.xcconfig */,
+				640687D1E11E711FD0080846D1A89C75 /* Pods-Unity3DTestbed.release.xcconfig */,
+			);
+			name = "Pods-Unity3DTestbed";
+			path = "Target Support Files/Pods-Unity3DTestbed";
+			sourceTree = "<group>";
+		};
+		4B77AD471277951E4844A3321BD5FC66 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66BE145D5949249DAE5EF6C83FAABBA2 /* UnityAds-xcframeworks.sh */,
+				009C9673F7C377941030791517681FA0 /* UnityAds.debug.xcconfig */,
+				71C382163CED1F5D0E9DE7E7BA5BBBAB /* UnityAds.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UnityAds";
+			sourceTree = "<group>";
+		};
+		60D544CF81322F110BABA9A7C990E576 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83C4E30E99B80C27AC6834175AE046F5 /* Pods-Unity3DTestbed */,
+				0BF4F032517B9AC6BAD095488B606E44 /* Pods-Unity3DTestbed-Unity3DTestbedUITests */,
+				D6C4DB343A34337AC461567EF4F908EA /* Pods-Unity3DTestbedTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC71EDAB263BF18B2A12243D80C612B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9C8ABC34CF60A90FDB31F4D8FA41453 /* UnityAds */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B59759B6DE110761DCDEB6A29AE5816F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ADC13153D0861274F3958FDCFA48EFE /* UnityAds.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6B5E600FB18CDE9F8769A7982690A14 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37274002413A48CE3610F0EF3CE72404 /* Pods-Unity3DTestbed */,
+				DBBDE1715B232A1C253A0A60334FC482 /* Pods-Unity3DTestbed-Unity3DTestbedUITests */,
+				F91AFC759B54EADD7831F3E91BFF13C3 /* Pods-Unity3DTestbedTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				AC71EDAB263BF18B2A12243D80C612B4 /* Pods */,
+				60D544CF81322F110BABA9A7C990E576 /* Products */,
+				B6B5E600FB18CDE9F8769A7982690A14 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBBDE1715B232A1C253A0A60334FC482 /* Pods-Unity3DTestbed-Unity3DTestbedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FB683621677AB25E48990A590E2D65F /* Pods-Unity3DTestbed-Unity3DTestbedUITests.modulemap */,
+				D17795BE825697586073AC4D064E1352 /* Pods-Unity3DTestbed-Unity3DTestbedUITests-acknowledgements.markdown */,
+				63EF96AA37BCAB754ABA3693D383004F /* Pods-Unity3DTestbed-Unity3DTestbedUITests-acknowledgements.plist */,
+				5BA33413E95657E1322C31ED6BF57A82 /* Pods-Unity3DTestbed-Unity3DTestbedUITests-dummy.m */,
+				AD9C06EC9A8741FC3D806309A7692E0A /* Pods-Unity3DTestbed-Unity3DTestbedUITests-umbrella.h */,
+				F4853BF192D3523DE98540071EECFB16 /* Pods-Unity3DTestbed-Unity3DTestbedUITests.debug.xcconfig */,
+				64B602918CCD2F1B39F39E9B123243D1 /* Pods-Unity3DTestbed-Unity3DTestbedUITests.release.xcconfig */,
+			);
+			name = "Pods-Unity3DTestbed-Unity3DTestbedUITests";
+			path = "Target Support Files/Pods-Unity3DTestbed-Unity3DTestbedUITests";
+			sourceTree = "<group>";
+		};
+		F91AFC759B54EADD7831F3E91BFF13C3 /* Pods-Unity3DTestbedTests */ = {
+			isa = PBXGroup;
+			children = (
+				510A8ECB136A4C7A903B03A2496E05C6 /* Pods-Unity3DTestbedTests-acknowledgements.markdown */,
+				B0C45B73256C7774C1E518157502E1CE /* Pods-Unity3DTestbedTests-acknowledgements.plist */,
+				8EC88F638442C700E119021E348D9D54 /* Pods-Unity3DTestbedTests-dummy.m */,
+				B933CD30C903CBE6BF56D9FFFD9366C3 /* Pods-Unity3DTestbedTests.debug.xcconfig */,
+				30105FF4EB4B0D17F1B08DCF96925C4C /* Pods-Unity3DTestbedTests.release.xcconfig */,
+			);
+			name = "Pods-Unity3DTestbedTests";
+			path = "Target Support Files/Pods-Unity3DTestbedTests";
+			sourceTree = "<group>";
+		};
+		F9C8ABC34CF60A90FDB31F4D8FA41453 /* UnityAds */ = {
+			isa = PBXGroup;
+			children = (
+				B59759B6DE110761DCDEB6A29AE5816F /* Frameworks */,
+				4B77AD471277951E4844A3321BD5FC66 /* Support Files */,
+			);
+			name = UnityAds;
+			path = UnityAds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		41C76AEA6BEC8CA92C86636BAB7C23C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682CECE3D3789FE43888ED6A4D4570DF /* Pods-Unity3DTestbed-Unity3DTestbedUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD626214E7738C6E5BC74CE533E1C2F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B0C1979AC4D414174A98AB9EA08F19 /* Pods-Unity3DTestbed-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5CA4E1134686761851E719F164885B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D9B1B30A96C9C5524AC068A9F6BE14F /* Pods-Unity3DTestbedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51119A2451A6FAF4606E94CCACF34DD /* Build configuration list for PBXNativeTarget "Pods-Unity3DTestbedTests" */;
+			buildPhases = (
+				EF5CA4E1134686761851E719F164885B /* Headers */,
+				F4E44F2D5C158681516E3EAA203BD68B /* Sources */,
+				4ECD26FFD00F0B8F3B0023FC64A1FA1F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C843891C33600E9B0FD162F10E6BAE9A /* PBXTargetDependency */,
+			);
+			name = "Pods-Unity3DTestbedTests";
+			productName = "Pods-Unity3DTestbedTests";
+			productReference = D6C4DB343A34337AC461567EF4F908EA /* Pods-Unity3DTestbedTests */;
+			productType = "com.apple.product-type.library.static";
+		};
+		15E5FE0B642AF6B48DA6873799D10CF9 /* Pods-Unity3DTestbed-Unity3DTestbedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC9664A62570A0FAAD8E37ABFB65C7A /* Build configuration list for PBXNativeTarget "Pods-Unity3DTestbed-Unity3DTestbedUITests" */;
+			buildPhases = (
+				41C76AEA6BEC8CA92C86636BAB7C23C8 /* Headers */,
+				B131D420A875EF8435FDBD03C2EF3E51 /* Sources */,
+				25B9E589EAA54EC266FEC035A46A43BB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D67B1F1643D61A58C98C4ED0DAA994CF /* PBXTargetDependency */,
+			);
+			name = "Pods-Unity3DTestbed-Unity3DTestbedUITests";
+			productName = "Pods-Unity3DTestbed-Unity3DTestbedUITests";
+			productReference = 0BF4F032517B9AC6BAD095488B606E44 /* Pods-Unity3DTestbed-Unity3DTestbedUITests */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F293397E5E541E203A737EB313E57261 /* Pods-Unity3DTestbed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30298696C01451661120A75A11E52128 /* Build configuration list for PBXNativeTarget "Pods-Unity3DTestbed" */;
+			buildPhases = (
+				AD626214E7738C6E5BC74CE533E1C2F2 /* Headers */,
+				9973626493C54943E7259DEC48D62AC7 /* Sources */,
+				97245C484F0BCC2EC6C50073B7B9DDAA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFE844DA718D5467AF51C8A5BDC11766 /* PBXTargetDependency */,
+			);
+			name = "Pods-Unity3DTestbed";
+			productName = "Pods-Unity3DTestbed";
+			productReference = 83C4E30E99B80C27AC6834175AE046F5 /* Pods-Unity3DTestbed */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 60D544CF81322F110BABA9A7C990E576 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F293397E5E541E203A737EB313E57261 /* Pods-Unity3DTestbed */,
+				15E5FE0B642AF6B48DA6873799D10CF9 /* Pods-Unity3DTestbed-Unity3DTestbedUITests */,
+				0D9B1B30A96C9C5524AC068A9F6BE14F /* Pods-Unity3DTestbedTests */,
+				93D529076BA2F81743BF6033A35532F2 /* UnityAds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		878A8D7F3673F528B6D8624EC89AF8CB /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/UnityAds/UnityAds-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/UnityAds/UnityAds-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/UnityAds/UnityAds-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9973626493C54943E7259DEC48D62AC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3454E8ECA91367A03879D295F2FA5E7 /* Pods-Unity3DTestbed-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B131D420A875EF8435FDBD03C2EF3E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655A883541BB06BD92EF3190A547D24E /* Pods-Unity3DTestbed-Unity3DTestbedUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E44F2D5C158681516E3EAA203BD68B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1C358A55CA92543735D95EB899B7BD /* Pods-Unity3DTestbedTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C843891C33600E9B0FD162F10E6BAE9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Unity3DTestbed";
+			target = F293397E5E541E203A737EB313E57261 /* Pods-Unity3DTestbed */;
+			targetProxy = 613B3694A65E22AB27F644E0A805F201 /* PBXContainerItemProxy */;
+		};
+		D67B1F1643D61A58C98C4ED0DAA994CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UnityAds;
+			target = 93D529076BA2F81743BF6033A35532F2 /* UnityAds */;
+			targetProxy = 832C5530675A5BC93CFC00A9B0260B58 /* PBXContainerItemProxy */;
+		};
+		FFE844DA718D5467AF51C8A5BDC11766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UnityAds;
+			target = 93D529076BA2F81743BF6033A35532F2 /* UnityAds */;
+			targetProxy = 4E84B782FF15FBE51AB3B2DBE3F752D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2276E0EDDC99D3C42C2475FC4D98E6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B933CD30C903CBE6BF56D9FFFD9366C3 /* Pods-Unity3DTestbedTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		308C67079A5D05F9FBD8E35104AEAB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 009C9673F7C377941030791517681FA0 /* UnityAds.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33F2156240858F9A51A5D62A17359001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71C382163CED1F5D0E9DE7E7BA5BBBAB /* UnityAds.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46F7EABB22A912AFF7FF2730CA2123C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4853BF192D3523DE98540071EECFB16 /* Pods-Unity3DTestbed-Unity3DTestbedUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Unity3DTestbed-Unity3DTestbedUITests/Pods-Unity3DTestbed-Unity3DTestbedUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8B876D973A45DA1A7F45121A7F080833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B602918CCD2F1B39F39E9B123243D1 /* Pods-Unity3DTestbed-Unity3DTestbedUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Unity3DTestbed-Unity3DTestbedUITests/Pods-Unity3DTestbed-Unity3DTestbedUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D8E22841AB60EE45ABF6FBDB5C13899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30105FF4EB4B0D17F1B08DCF96925C4C /* Pods-Unity3DTestbedTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F108BFF7DEA158E639905B58009654AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE79C9770F7625877CBB7688A8AB82EC /* Pods-Unity3DTestbed.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Unity3DTestbed/Pods-Unity3DTestbed.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F63E2AB632C099339DB2913311344659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 640687D1E11E711FD0080846D1A89C75 /* Pods-Unity3DTestbed.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Unity3DTestbed/Pods-Unity3DTestbed.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30298696C01451661120A75A11E52128 /* Build configuration list for PBXNativeTarget "Pods-Unity3DTestbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F108BFF7DEA158E639905B58009654AC /* Debug */,
+				F63E2AB632C099339DB2913311344659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C51119A2451A6FAF4606E94CCACF34DD /* Build configuration list for PBXNativeTarget "Pods-Unity3DTestbedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2276E0EDDC99D3C42C2475FC4D98E6EC /* Debug */,
+				9D8E22841AB60EE45ABF6FBDB5C13899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F567FE27ED3601C8E19F6A287560630C /* Build configuration list for PBXAggregateTarget "UnityAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308C67079A5D05F9FBD8E35104AEAB74 /* Debug */,
+				33F2156240858F9A51A5D62A17359001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC9664A62570A0FAAD8E37ABFB65C7A /* Build configuration list for PBXNativeTarget "Pods-Unity3DTestbed-Unity3DTestbedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F7EABB22A912AFF7FF2730CA2123C5 /* Debug */,
+				8B876D973A45DA1A7F45121A7F080833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
